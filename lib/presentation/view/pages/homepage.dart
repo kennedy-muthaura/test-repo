@@ -5,9 +5,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: CustomScrollView(slivers: <Widg
-      
-      et>[
+      body: CustomScrollView(slivers: <Widget>[
         SliverAppBar(
           title: Text(
             'Homepage',
